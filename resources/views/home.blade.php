@@ -9,7 +9,7 @@
     <h1>
         This is home page
     </h1>
-    <a href="/about">About</a>
-    <a href="/contact">contact</a>
+    <a href="{{ route('about') }}">About</a>
+    <a href="{{ route('contact') }}">Contact</a>
 </body>
 </html>
